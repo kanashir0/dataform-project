@@ -1,0 +1,11 @@
+config {
+  type: "declaration",
+  database: "my-gcp-project",
+  schema: "my-bq-dataset",
+  name: "my-bq-table",
+  description: "This is a simple description for a BQ table",
+  columns: {
+    column1: "Timestamp from the",
+    column2: "User session's ID"
+  }
+}
